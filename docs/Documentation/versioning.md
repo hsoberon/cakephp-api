@@ -1,4 +1,4 @@
-# Versioning
+## Versioning
 
 
 The cakephp-api supports versioning which allows for better management of features or plugins compatibility.
@@ -11,9 +11,7 @@ Cakephp-api use URL versioning. With a default semantic style like v1, v2, v3
 
 
 
---
-
-### Enable versioning:
+## Enable versioning:
 
 To enable it, you just need to turn true the configuration in the `config/api.php` 
 
