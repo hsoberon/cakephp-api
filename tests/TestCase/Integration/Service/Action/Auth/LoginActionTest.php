@@ -64,6 +64,8 @@ class LoginActionTest extends IntegrationTestCase
             'active' => true,
             'api_token' => 'yyy',
             'role' => 'admin',
+            'secret_verified' => false,
+            'last_login' => '2015-06-24T17:33:54+00:00',
         ];
         $data = Hash::get($result, 'data');
         unset($data['activation_date']);
